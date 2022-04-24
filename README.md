@@ -5,7 +5,7 @@ PyTorch implementation for [Learning with Noisy Correspondence for Cross-modal M
 ## Introduction
 
 ### NCR framework
-<img src="https://github.com/XLearning-SCU/2021-NeurIPS-NCR/blob/main/framework.pdf"  width="866" height="280" />
+<img src="https://github.com/XLearning-SCU/2021-NeurIPS-NCR/blob/main/framework.png"  width="860" height="268" />
 
 ## Requirements
 
@@ -69,8 +69,8 @@ python ./NCR/evaluation.py
 > Note that for MS-COCO, please set ```split``` to ```testall```, and ```fold5``` to ```false``` (5K evaluation) or ```true``` (Five-fold 1K evaluation).
 
 ### Experiment Results:
-<img src="https://github.com/XLearning-SCU/2021-NeurIPS-NCR/blob/main/mscoco_flickr30k.png"  width="466" height="280" />
-<img src="https://github.com/XLearning-SCU/2021-NeurIPS-NCR/blob/main/cc152k.png"  width="866" height="280" />
+<img src="https://github.com/XLearning-SCU/2021-NeurIPS-NCR/blob/main/mscoco_flickr30k.png"  width="740" height="434" />
+<img src="https://github.com/XLearning-SCU/2021-NeurIPS-NCR/blob/main/cc152k.png"  width="565" height="238" />
 
 
 ## Citation
