@@ -1,6 +1,21 @@
 
 PyTorch implementation for [Learning with Noisy Correspondence for Cross-modal Matching](https://proceedings.neurips.cc/paper/2021/file/f5e62af885293cf4d511ceef31e61c80-Paper.pdf) (NeurIPS 2021 Oral).
 
+## Update
+
+- 2022-10-17, We provide the image urls of CC152K from [Conceptual Captions](https://ai.google.com/research/ConceptualCaptions) (CC), which might be helpful to your research.
+
+```
+
+|-- cc152k
+|   |-- dev_caps_img_urls.csv
+|   |-- test_caps_img_urls.csv
+|   `-- train_caps_img_urls.csv
+
+```
+
+Use [img2dataset](https://github.com/rom1504/img2dataset) to download images from the csv files. [More details](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/cc3m.md)
+
 
 ## Introduction
 
@@ -75,7 +90,7 @@ python ./NCR/evaluation.py
 
 ## Citation
 
-If NCR is useful for your research, please cite the following paper:
+If NCR is useful to your research, please cite the following paper:
 ```
 @article{huang2021learning,
   title={Learning with Noisy Correspondence for Cross-modal Matching},
