@@ -176,7 +176,7 @@ sftp-config.json
 *.data
 code/lm_module/data/*
 *.pkl
-*.csv
+# *.csv
 *.yaml
 *.pt
 data
