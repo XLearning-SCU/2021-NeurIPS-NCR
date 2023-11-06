@@ -249,7 +249,7 @@ def train(opt, net, net2, labeled_trainloader, unlabeled_trainloader=None, epoch
             net.val_start()
             # labeled data
             pl = net.predict(batch_images_l, batch_text_l, batch_lengths_l)
-            ptl = batch_prob_l * batch_labels_l + (1 - batch_prob_l) * pl[0]
+            ptl = batch_prob_l * batch_labels_l + (1 - batch_prob_l) * pl
             targets_l = ptl.detach()
             pred_labels_l.append(ptl.cpu().numpy())
 
